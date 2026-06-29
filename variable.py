@@ -14,7 +14,8 @@ boolean2 = False #bool (0)
 #
 # print(f"Result {number}") # Использование функциональной (f) строки. Тривиально: print("Result", number)
 #
-# print(word + str(digit + float(number))) # Приведение значения данных  нужному типу: str(), float(), int(), bool()
-
-input("")
-input("")
+print(word, str(digit + float(number)), sep=' ') # Приведение значения данных  нужному типу: str(), float(), int(), bool()
+word = '1' #string
+print(word + str(digit + float(number)))
+# input("")
+# input("")
